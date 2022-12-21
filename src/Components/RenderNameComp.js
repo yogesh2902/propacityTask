@@ -2,20 +2,9 @@ import {View, Text, StyleSheet} from 'react-native';
 import React from 'react';
 import fontFamily from '../styles/fontFamily';
 import colors from '../styles/colors';
+import {sliceColor} from '../constants/constants';
 
 const RenderNameComp = ({item, index}) => {
-  const sliceColor = [
-    '#F44336',
-    '#2196F3',
-    '#FFEB3B',
-    '#4CAF50',
-    '#FF9800',
-    '#00FF00',
-    '#FF00FF',
-    '#FFC0CB',
-    '#00008B',
-    '#00FFFF',
-  ];
   return (
     <View style={styles.rowView}>
       <View

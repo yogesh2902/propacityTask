@@ -12,6 +12,7 @@ import PieChart from 'react-native-pie-chart';
 import commonStyles from '../../styles/commonStyles';
 import {width} from '../../styles/responsiveSize';
 import RenderNameComp from '../../Components/RenderNameComp';
+import {sliceColor} from '../../constants/constants';
 
 const Home = ({navigation}) => {
   const headers = {
@@ -67,19 +68,6 @@ const Home = ({navigation}) => {
         console.log(err, 'errr');
       });
   };
-
-  const sliceColor = [
-    '#F44336',
-    '#2196F3',
-    '#FFEB3B',
-    '#4CAF50',
-    '#FF9800',
-    '#00FF00',
-    '#FF00FF',
-    '#FFC0CB',
-    '#00008B',
-    '#00FFFF',
-  ];
 
   return (
     <WrapperContainer>
